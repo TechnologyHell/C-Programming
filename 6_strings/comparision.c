@@ -36,6 +36,8 @@ void main()
         {
             if (st1[i] == st2[i])
                 match = 1;
+            else 
+                break;
         }
     }
 

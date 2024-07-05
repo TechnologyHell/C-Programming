@@ -22,7 +22,4 @@ void main()
 
     puts(word);
 
-    //copy
-    strcpy(string, s1);
-
 }
