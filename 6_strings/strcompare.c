@@ -7,7 +7,7 @@
 void main()
 {
     char st1[max], st2[max];
-    int len1, len2, i, match = 0, cmp=1;
+    int  i, cmp=1;
 
     printf("Enter the 1st string : ");
     fgets(st1, max, stdin);
