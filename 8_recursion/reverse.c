@@ -2,8 +2,8 @@
 
 int reverse(int n, int rev)
 {
-    if(n<10)
-        return(n);
+    if(n==0)
+        return(rev);
     
     rev = rev * 10 + (n % 10 );
 
@@ -20,5 +20,5 @@ void main()
 
     res = reverse(num, 0);
 
-    printf("Reverse of %d is %d\n", res);
+    printf("Reverse of %d is %d\n", num, res);
 }
